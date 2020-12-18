@@ -4,14 +4,14 @@ chat to see how would your friends would react to your messages.
 
 ## Atleast you will have some fun
 
-# Thanks to these repos (I simply copied code from minGPT)
+## Thanks to these repos (I simply copied code from minGPT)
 
-    1. (MinGPT)[https://github.com/karpathy/minGPT]
+    1. [MinGPT](https://github.com/karpathy/minGPT)
 
-    2. (TeleBot)[https://github.com/KyleJamesWalker/telebot]
+    2. [TeleBot](https://github.com/KyleJamesWalker/telebot)
 
 ## Usage:
-1. Gather data - (Export Group chat from Telegram)[https://telegram.org/blog/export-and-more#:~:text=To%20use%20this%20feature%2C%20make,parts%20of%20their%20messaging%20history.]
+1. Gather data - [Export Group chat from Telegram]{https://telegram.org/blog/export-and-more#:~:text=To%20use%20this%20feature%2C%20make,parts%20of%20their%20messaging%20history)
 2. Put chat export folder to chat folder
 3. Run `python parse_telegram.py` to parse html message chat to txt file
 4. Run `python train.py` (Need big GPU for cuda acceleration)
